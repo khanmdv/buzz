@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E747444E19BBD233004BA9B3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747444D19BBD233004BA9B3 /* Parse.framework */; };
+		E747445019BBD23A004BA9B3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747444F19BBD23A004BA9B3 /* Bolts.framework */; };
+		E747445219BBD262004BA9B3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747445119BBD262004BA9B3 /* AudioToolbox.framework */; };
+		E747445419BBD271004BA9B3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747445319BBD271004BA9B3 /* CFNetwork.framework */; };
+		E747445619BBD279004BA9B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747445519BBD279004BA9B3 /* CoreGraphics.framework */; };
+		E747445819BBD285004BA9B3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747445719BBD285004BA9B3 /* CoreLocation.framework */; };
+		E747445A19BBD28B004BA9B3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E747445919BBD28B004BA9B3 /* libz.dylib */; };
+		E747445C19BBD297004BA9B3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747445B19BBD297004BA9B3 /* MobileCoreServices.framework */; };
+		E747445E19BBD2AA004BA9B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747445D19BBD2AA004BA9B3 /* QuartzCore.framework */; };
+		E747446019BBD2AF004BA9B3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747445F19BBD2AF004BA9B3 /* Security.framework */; };
+		E747446219BBD2BB004BA9B3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747446119BBD2BB004BA9B3 /* StoreKit.framework */; };
+		E747446419BBD2C3004BA9B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E747446319BBD2C3004BA9B3 /* SystemConfiguration.framework */; };
 		E78FD194198F1E6B0069F335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FD193198F1E6B0069F335 /* main.m */; };
 		E78FD197198F1E6B0069F335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FD196198F1E6B0069F335 /* AppDelegate.m */; };
 		E78FD19A198F1E6B0069F335 /* Buzzze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E78FD198198F1E6B0069F335 /* Buzzze.xcdatamodeld */; };
@@ -14,6 +26,7 @@
 		E78FD1A0198F1E6B0069F335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78FD19E198F1E6B0069F335 /* Main.storyboard */; };
 		E78FD1A2198F1E6B0069F335 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78FD1A1198F1E6B0069F335 /* Images.xcassets */; };
 		E78FD1AE198F1E6B0069F335 /* BuzzzeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FD1AD198F1E6B0069F335 /* BuzzzeTests.m */; };
+		F58C3C8D6F334E6B8A86A7D6 /* libPods-BuzzzeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D8576C320F4A2094FE4270 /* libPods-BuzzzeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D4587CBFC68417F98E4AAC3 /* Pods-BuzzzeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzzeTests.xcconfig"; path = "Pods/Pods-BuzzzeTests.xcconfig"; sourceTree = "<group>"; };
+		91D8576C320F4A2094FE4270 /* libPods-BuzzzeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuzzzeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E747444D19BBD233004BA9B3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		E747444F19BBD23A004BA9B3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		E747445119BBD262004BA9B3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E747445319BBD271004BA9B3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E747445519BBD279004BA9B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E747445719BBD285004BA9B3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E747445919BBD28B004BA9B3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E747445B19BBD297004BA9B3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E747445D19BBD2AA004BA9B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E747445F19BBD2AF004BA9B3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E747446119BBD2BB004BA9B3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E747446319BBD2C3004BA9B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E78FD18E198F1E6B0069F335 /* Buzzze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buzzze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78FD192198F1E6B0069F335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E78FD193198F1E6B0069F335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +74,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E747446419BBD2C3004BA9B3 /* SystemConfiguration.framework in Frameworks */,
+				E747446219BBD2BB004BA9B3 /* StoreKit.framework in Frameworks */,
+				E747446019BBD2AF004BA9B3 /* Security.framework in Frameworks */,
+				E747445E19BBD2AA004BA9B3 /* QuartzCore.framework in Frameworks */,
+				E747445C19BBD297004BA9B3 /* MobileCoreServices.framework in Frameworks */,
+				E747445A19BBD28B004BA9B3 /* libz.dylib in Frameworks */,
+				E747445819BBD285004BA9B3 /* CoreLocation.framework in Frameworks */,
+				E747445619BBD279004BA9B3 /* CoreGraphics.framework in Frameworks */,
+				E747445419BBD271004BA9B3 /* CFNetwork.framework in Frameworks */,
+				E747445219BBD262004BA9B3 /* AudioToolbox.framework in Frameworks */,
+				E747444E19BBD233004BA9B3 /* Parse.framework in Frameworks */,
+				E747445019BBD23A004BA9B3 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +93,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58C3C8D6F334E6B8A86A7D6 /* libPods-BuzzzeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		072DFF6BEF5848E697AE2FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E747446319BBD2C3004BA9B3 /* SystemConfiguration.framework */,
+				E747446119BBD2BB004BA9B3 /* StoreKit.framework */,
+				E747445F19BBD2AF004BA9B3 /* Security.framework */,
+				E747445D19BBD2AA004BA9B3 /* QuartzCore.framework */,
+				E747445B19BBD297004BA9B3 /* MobileCoreServices.framework */,
+				E747445919BBD28B004BA9B3 /* libz.dylib */,
+				E747445719BBD285004BA9B3 /* CoreLocation.framework */,
+				E747445519BBD279004BA9B3 /* CoreGraphics.framework */,
+				E747445319BBD271004BA9B3 /* CFNetwork.framework */,
+				E747445119BBD262004BA9B3 /* AudioToolbox.framework */,
+				E747444F19BBD23A004BA9B3 /* Bolts.framework */,
+				E747444D19BBD233004BA9B3 /* Parse.framework */,
+				91D8576C320F4A2094FE4270 /* libPods-BuzzzeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E78FD185198F1E6B0069F335 = {
 			isa = PBXGroup;
 			children = (
 				E78FD190198F1E6B0069F335 /* Buzzze */,
 				E78FD1AA198F1E6B0069F335 /* BuzzzeTests */,
 				E78FD18F198F1E6B0069F335 /* Products */,
+				6D4587CBFC68417F98E4AAC3 /* Pods-BuzzzeTests.xcconfig */,
+				072DFF6BEF5848E697AE2FCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E78FD1B4198F1E6B0069F335 /* Build configuration list for PBXNativeTarget "BuzzzeTests" */;
 			buildPhases = (
+				AF70CAF3D6684E999D36E694 /* Check Pods Manifest.lock */,
 				E78FD1A3198F1E6B0069F335 /* Sources */,
 				E78FD1A4198F1E6B0069F335 /* Frameworks */,
 				E78FD1A5198F1E6B0069F335 /* Resources */,
+				6D388E4123564EB68682B681 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +308,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D388E4123564EB68682B681 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-BuzzzeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF70CAF3D6684E999D36E694 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E78FD18A198F1E6B0069F335 /* Sources */ = {
@@ -368,6 +465,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Buzzze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,6 +480,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Buzzze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -387,6 +492,7 @@
 		};
 		E78FD1B5198F1E6B0069F335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4587CBFC68417F98E4AAC3 /* Pods-BuzzzeTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Buzzze.app/Buzzze";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -406,6 +512,7 @@
 		};
 		E78FD1B6198F1E6B0069F335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4587CBFC68417F98E4AAC3 /* Pods-BuzzzeTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Buzzze.app/Buzzze";
 				FRAMEWORK_SEARCH_PATHS = (
